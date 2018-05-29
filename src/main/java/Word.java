@@ -1,20 +1,20 @@
 /**
  * Created by jxzhong on 2018/5/22.
  */
-public class Input {
-    private String value;
+public class Word {
+    private String text;
     private int count;
 
-    public Input(String w, int i) {
-        this.value = w;
-        this.count = i;
+    public Word(String text, int count) {
+        this.text = text;
+        this.count = count;
     }
 
-    public String getValue() {
-        return this.value;
+    public String getText() {
+        return this.text;
     }
 
-    public int getWordCount() {
+    public int getCount() {
         return this.count;
     }
 }
