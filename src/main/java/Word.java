@@ -1,6 +1,3 @@
-/**
- * Created by jxzhong on 2018/5/22.
- */
 public class Word {
     private String text;
     private int count;

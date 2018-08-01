@@ -1,11 +1,10 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
 
-import static java.util.stream.Collectors.*;
+import static java.util.stream.Collectors.groupingBy;
+import static java.util.stream.Collectors.joining;
 
-/**
- * Created by jxzhong on 2018/5/22.
- */
 class WordFrequencyGame {
 
     private static final String SPLIT_REGEX = "\\s+";
